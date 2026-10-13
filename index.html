@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern personal portfolio website." />
+  <title>Anu | Creative Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <div class="avatar"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=85" alt="Girl profile portrait" /></div>
+      <h2>Anupriya S</h2>
+      <p class="role">BCA Student · Developer</p>
+      <div class="socials">
+        <a href="#contact" aria-label="Email">✉</a>
+        <a href="#projects" aria-label="Projects">⌘</a>
+        <a href="#skills" aria-label="Skills">✦</a>
+      </div>
+    </div>
+    <nav class="navigation">
+      <a class="nav-link active" href="#home"><span>⌂</span> HOME</a>
+      <a class="nav-link" href="#about"><span>▣</span> ABOUT</a>
+      <a class="nav-link" href="#projects"><span>▱</span> PROJECTS</a>
+      <a class="nav-link" href="#services"><span>✧</span> SERVICES</a>
+      <a class="nav-link" href="#skills"><span>⌘</span> SKILLS</a>
+      <a class="nav-link" href="#contact"><span>✉</span> CONTACT</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+  </aside>
+
+  <main class="main-content">
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> HELLO, WORLD! I'M</p>
+        <h1>Anupriya<br/>I build <span class="accent" id="changingWord">digital experiences</span><span class="cursor">|</span></h1>
+        <p class="hero-description">A curious BCA student turning ideas into clean, useful and thoughtful web experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-light" href="#contact">Let's talk <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><b>01</b> / PORTFOLIO</span><span class="meta-rule"></span><span>DESIGN · CODE · CREATE</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer workspace illustration">
+        <div class="art-glow"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-card card-code"><span class="card-dot"></span><span class="card-dot"></span><span class="card-dot"></span><p>&lt; creativity /&gt;</p><small>build · learn · repeat</small></div>
+        <div class="desk-lamp"></div>
+        <div class="plant plant-left"><i></i><i></i><i></i><b></b></div>
+        <div class="desk"></div>
+        <div class="monitor"><div class="monitor-top"><span></span><span></span><span></span></div><div class="code-lines"><i></i><i></i><i></i><i></i><i></i></div><div class="monitor-stand"></div></div>
+        <div class="mug">☕</div>
+        <div class="floating-card card-note"><strong>IDEA →</strong><br/><span>REALITY</span></div>
+        <div class="plant plant-right"><i></i><i></i><i></i><b></b></div>
+        <div class="art-caption"><span>FIG. 01</span><span>MY CREATIVE CORNER</span></div>
+      </div>
+      <a href="#about" class="scroll-cue"><span>↓</span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Learning today.<br/><span class="accent">Building tomorrow.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">I’m a final-year BCA student who enjoys exploring technology, solving problems and creating projects that make everyday tasks easier.</p>
+        <div class="about-detail"><span class="detail-number">01</span><div><h3>My approach</h3><p>Stay curious, keep things simple, and improve one step at a time.</p></div></div>
+        <div class="about-detail"><span class="detail-number">02</span><div><h3>What I’m exploring</h3><p>Web development, Python, AI concepts and practical project building.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading heading-row"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects with <span class="accent">purpose.</span></h2></div><span class="section-index">02 — 04</span></div>
+      <div class="project-grid">
+        <article class="project-card project-featured"><div class="project-visual visual-ai"><span class="visual-label">AI / PYTHON</span><div class="radar"><i></i><i></i><i></i><b>AI</b></div><span class="visual-status"><span class="pulse"></span> DETECTION SYSTEM</span></div><div class="project-info"><div><p class="project-type">01 / FINAL YEAR PROJECT</p><h3>Accident Detection & Alert System</h3><p>Using YOLO and Python to identify possible road accidents and show detection results.</p></div><span class="project-arrow">↗</span></div></article>
+        <article class="project-card"><div class="project-visual visual-web"><span class="visual-label">WEB / UI</span><div class="mini-browser"><div class="browser-bar">● ● ●</div><div class="browser-content"><b>YOUR<br/>NEXT IDEA.</b><span></span><span></span></div></div></div><div class="project-info"><div><p class="project-type">02 / WEB CONCEPT</p><h3>Personal Portfolio</h3><p>A responsive space to share skills, work and a personal story.</p></div><span class="project-arrow">↗</span></div></article>
+        <article class="project-card"><div class="project-visual visual-food"><span class="visual-label">APP / CONCEPT</span><div class="food-circle">fresh<span>+</span></div><div class="food-tag">ORDER · TRACK · ENJOY</div></div><div class="project-info"><div><p class="project-type">03 / APP CONCEPT</p><h3>Food Delivery App</h3><p>A student project concept for browsing meals and managing orders.</p></div><span class="project-arrow">↗</span></div></article>
+      </div>
+      <p class="small-note">Replace these sample project descriptions with your final project details, screenshots and repository links.</p>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading"><p class="eyebrow">HOW I CAN HELP</p><h2>Small steps. <span class="accent">Useful results.</span></h2></div>
+      <div class="service-list"><div class="service-item"><span>01</span><h3>Website Design</h3><p>Clean, responsive layouts for personal and academic projects.</p><b>↗</b></div><div class="service-item"><span>02</span><h3>Frontend Development</h3><p>Turning designs into accessible pages that work across screens.</p><b>↗</b></div><div class="service-item"><span>03</span><h3>Python Projects</h3><p>Learning-focused applications and practical project prototypes.</p><b>↗</b></div></div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading heading-row"><div><p class="eyebrow">TOOLS IN MY WORKSPACE</p><h2>Skills I’m <span class="accent">growing.</span></h2></div><span class="section-index">04 — 04</span></div>
+      <div class="skills-grid"><div class="skill"><span>01</span><b>HTML & CSS</b><div class="skill-track"><i style="width:82%"></i></div><small>Layout & styling</small></div><div class="skill"><span>02</span><b>JavaScript</b><div class="skill-track"><i style="width:58%"></i></div><small>Interactive UI</small></div><div class="skill"><span>03</span><b>Python</b><div class="skill-track"><i style="width:70%"></i></div><small>Logic & projects</small></div><div class="skill"><span>04</span><b>AI / YOLO</b><div class="skill-track"><i style="width:60%"></i></div><small>Computer vision basics</small></div></div>
+      <p class="small-note">Skill bars are illustrative. Adjust them to match your actual experience.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s make something<br/><span class="accent">meaningful.</span></h2><p>I’m open to learning opportunities, internships and collaborations.</p><a class="button button-dark" href="mailto:your.email@example.com">Email me <span>↗</span></a></div>
+      <footer><span>© <span id="year"></span> ANUPRIYA S</span><span>MADE WITH CURIOSITY <b>✦</b></span><a href="#home">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
